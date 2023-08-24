@@ -1,5 +1,5 @@
 {
-    "name": "maknz/slack",
+    "name": "Angelo8828/slack",
     "description": "A simple PHP package for sending messages to Slack, with a focus on ease of use and elegant syntax.",
     "keywords": ["laravel", "slack"],
     "license": "BSD-2-Clause",
@@ -7,11 +7,15 @@
         {
             "name": "maknz",
             "email": "github@mak.geek.nz"
+        },
+        {
+            "name": "angelo8828",
+            "email": "angelo8828@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.5.0",
-        "guzzlehttp/guzzle": "~6.0|~5.0|~4.0",
+        "guzzlehttp/guzzle": "~7.0|~6.0|~5.0|~4.0",
         "ext-mbstring": "*"
     },
     "require-dev": {
@@ -24,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Maknz\\Slack\\": "src/"
+            "Angelo8828\\Slack\\": "src/"
         }
     },
     "minimum-stability": "stable"
