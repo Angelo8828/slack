@@ -1,6 +1,6 @@
 <?php
 
-use Maknz\Slack\Client;
+use Angelo8828\Slack\Client;
 
 class ClientUnitTest extends PHPUnit_Framework_TestCase
 {
@@ -8,7 +8,7 @@ class ClientUnitTest extends PHPUnit_Framework_TestCase
     {
         $client = new Client('http://fake.endpoint');
 
-        $this->assertInstanceOf('Maknz\Slack\Client', $client);
+        $this->assertInstanceOf('Angelo8828\Slack\Client', $client);
 
         $this->assertSame('http://fake.endpoint', $client->getEndpoint());
     }
@@ -57,7 +57,7 @@ class ClientUnitTest extends PHPUnit_Framework_TestCase
 
         $message = $client->createMessage();
 
-        $this->assertInstanceOf('Maknz\Slack\Message', $message);
+        $this->assertInstanceOf('Angelo8828\Slack\Message', $message);
 
         $this->assertSame($client->getDefaultChannel(), $message->getChannel());
 
@@ -72,7 +72,7 @@ class ClientUnitTest extends PHPUnit_Framework_TestCase
 
         $message = $client->to('@regan');
 
-        $this->assertInstanceOf('Maknz\Slack\Message', $message);
+        $this->assertInstanceOf('Angelo8828\Slack\Message', $message);
 
         $this->assertSame('@regan', $message->getChannel());
     }
