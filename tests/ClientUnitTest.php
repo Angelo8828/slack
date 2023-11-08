@@ -1,8 +1,9 @@
 <?php
 
 use Angelo8828\Slack\Client;
+use PHPUnit\Framework\TestCase;
 
-class ClientUnitTest extends PHPUnit_Framework_TestCase
+class ClientUnitTest extends TestCase
 {
     public function testInstantiationWithNoDefaults()
     {

@@ -2,8 +2,9 @@
 
 use Angelo8828\Slack\Message;
 use Angelo8828\Slack\Attachment;
+use PHPUnit\Framework\TestCase;
 
-class MessageUnitTest extends PHPUnit_Framework_TestCase
+class MessageUnitTest extends TestCase
 {
     public function testInstantiation()
     {

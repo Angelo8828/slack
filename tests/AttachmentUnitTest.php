@@ -3,8 +3,9 @@
 use Angelo8828\Slack\Attachment;
 use Angelo8828\Slack\AttachmentAction;
 use Angelo8828\Slack\AttachmentField;
+use PHPUnit\Framework\TestCase;
 
-class AttachmentUnitTest extends PHPUnit_Framework_TestCase
+class AttachmentUnitTest extends TestCase
 {
     public function testAttachmentCreationFromArray()
     {
