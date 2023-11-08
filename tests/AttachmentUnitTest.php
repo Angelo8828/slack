@@ -9,7 +9,7 @@ class AttachmentUnitTest extends TestCase
 {
     public function testAttachmentCreationFromArray()
     {
-        $now = new DateTime;
+        $now = new DateTime();
 
         $a = new Attachment([
             'fallback' => 'Fallback',
@@ -69,7 +69,7 @@ class AttachmentUnitTest extends TestCase
 
     public function testAttachmentToArray()
     {
-        $now = new DateTime;
+        $now = new DateTime();
 
         $in = [
             'fallback' => 'Fallback',

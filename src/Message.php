@@ -75,12 +75,12 @@ class Message
     /**
      * @var string
      */
-    const ICON_TYPE_URL = 'icon_url';
+    public const ICON_TYPE_URL = 'icon_url';
 
     /**
      * @var string
      */
-    const ICON_TYPE_EMOJI = 'icon_emoji';
+    public const ICON_TYPE_EMOJI = 'icon_emoji';
 
     /**
      * Instantiate a new Message.
@@ -335,7 +335,7 @@ class Message
         } elseif (is_array($attachment)) {
             $attachmentObject = new Attachment($attachment);
 
-            if (! isset($attachment['mrkdwn_in'])) {
+            if (!isset($attachment['mrkdwn_in'])) {
                 $attachmentObject->setMarkdownFields($this->getMarkdownInAttachments());
             }
 

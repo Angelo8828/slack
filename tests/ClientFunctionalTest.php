@@ -30,7 +30,7 @@ class ClientFunctionalTest extends TestCase
 
     public function testMessageWithAttachments()
     {
-        $now = new DateTime;
+        $now = new DateTime();
 
         $attachmentInput = [
             'fallback' => 'Some fallback text',
@@ -102,7 +102,7 @@ class ClientFunctionalTest extends TestCase
 
     public function testMessageWithAttachmentsAndFields()
     {
-        $now = new DateTime;
+        $now = new DateTime();
 
         $attachmentInput = [
             'fallback' => 'Some fallback text',
@@ -195,7 +195,7 @@ class ClientFunctionalTest extends TestCase
 
     public function testMessageWithAttachmentsAndActions()
     {
-        $now = new DateTime;
+        $now = new DateTime();
 
         $attachmentInput = [
             'fallback' => 'Some fallback text',

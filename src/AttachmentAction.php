@@ -6,11 +6,11 @@ use InvalidArgumentException;
 
 class AttachmentAction
 {
-    const TYPE_BUTTON = 'button';
+    public const TYPE_BUTTON = 'button';
 
-    const STYLE_DEFAULT = 'default';
-    const STYLE_PRIMARY = 'primary';
-    const STYLE_DANGER = 'danger';
+    public const STYLE_DEFAULT = 'default';
+    public const STYLE_PRIMARY = 'primary';
+    public const STYLE_DANGER = 'danger';
 
     /**
      * The required name field of the action. The name will be returned to your Action URL.

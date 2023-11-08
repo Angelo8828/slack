@@ -123,7 +123,7 @@ class Client
             $this->setMarkdownInAttachments($attributes['markdown_in_attachments']);
         }
 
-        $this->guzzle = $guzzle ?: new Guzzle;
+        $this->guzzle = $guzzle ?: new Guzzle();
     }
 
     /**
