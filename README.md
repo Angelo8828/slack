@@ -18,6 +18,7 @@ Please use `Angelo8828` on namespaces instead of `Maknz`. For example, use `Ange
 The project will contain 2 releases
 
 `1.9.0` - for PHP versions above 5.5 or HHVM.
+
 `2.0`   - PHP versions above 7.2
 
 For the functionalities, there should be no difference between `1.9.0` and `2.0`. The only difference between the two is that `2.0` has updated PHPUnit, to have the package's automated test modernized and updated
